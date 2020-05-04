@@ -1,0 +1,50 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "A dummy node Rest Api",
+  "main": "app.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "run-backend": "cd backend && node app.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleez007/node-rest.git"
+  },
+  "keywords": [
+    "rest",
+    "express-api"
+  ],
+  "author": "kingsley Etoka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleez007/node-rest/issues"
+  },
+  "homepage": "https://github.com/sleez007/node-rest#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "multer": "^1.4.2"
+  }
+}
